@@ -102,6 +102,17 @@ export function ProjectsContent() {
       isIcon: true,
       githubUrl: "https://github.com/bloomberg-sudo-dev/micromatrix",
       liveUrl: null
+    },
+    {
+      title: "Draw on Elon Musk",
+      description: "A game where you draw on Elon Musk.",
+      tech: ["React", "Next.js", "Tailwind CSS"],
+      status: "Live",
+      statusColor: "bg-gray-200 text-gray-700",
+      image: "1000000060.png",
+      isIcon: true,
+      githubUrl: "https://github.com/bloomberg-sudo-dev/drawonelon",
+      liveUrl: "https://drawonelon.xyz"
     }
   ]
 
