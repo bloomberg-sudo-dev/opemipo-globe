@@ -60,6 +60,17 @@ export function AboutMeContent() {
 export function ProjectsContent() {
   const projects = [
     {
+      title: "Wrdlink.io",
+      description: "A little word game based on wordle.",
+      tech: ["Vite", "React", "Tailwind CSS"],
+      status: "Live",
+      statusColor: "bg-gray-200 text-gray-700",
+      image: "favicon.png",
+      isIcon: true,
+      githubUrl: null,
+      liveUrl: "https://wrdlink.io"
+    },
+    {
       title: "IoT Hydroponic Nutrient Monitoring System",
       description: "A system that monitors the nutrient levels of a hydroponic system and sends alerts when the levels are too high or too low.",
       tech: ["C++", "Arduino", "ESP32"],
@@ -82,25 +93,25 @@ export function ProjectsContent() {
       liveUrl: "https://broq.app"
     },
     {
-      title: "CNC Tape Plotting Robot",
-      description: "A system to label tape with a custom built CNC machine. Powered by a Raspberry Pi and a custom PCB.",
-      tech: ["C++", "Arduino", "Python", "Raspberry Pi", "EasyEDA"],
-      status: "In Progress",
+      title: "4-Speed Manual Transmission Gearbox",
+      description: "A 3D printed and designed 4-speed manual transmission gearbox.",
+      tech: ["CAD", "Arduino", "C++",],
+      status: "Live",
       statusColor: "bg-gray-200 text-gray-700",
       image: "📏",
       isIcon: false,
-      githubUrl: "https://github.com/bloomberg-sudo-dev/cnc-tape-plotter",
+      githubUrl: null,
       liveUrl: null
     },
     {
-      title: "MicroMatrix",
-      description: "A lightweight, memory-safe matrix math library written in C for resource-constrained embedded systems, with optional assembly optimization for speed-critical operations.",
+      title: "FusedDL",
+      description: "AI inference library for MCUs and FPGAs.",
       tech: ["C", "Assembly", "Embedded Systems"],
       status: "In Progress",
       statusColor: "bg-gray-200 text-gray-700",
       image: "micro-matrix-logo.png",
       isIcon: true,
-      githubUrl: "https://github.com/bloomberg-sudo-dev/micromatrix",
+      githubUrl: "https://github.com/bloomberg-sudo-dev/fuseddl",
       liveUrl: null
     },
     {
