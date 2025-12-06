@@ -275,20 +275,20 @@ export function ContactContent() {
     {
       icon: Mail,
       label: "Email",
-      value: "hello@opemipo.dev",
-      href: "mailto:hello@opemipo.dev"
+      value: "opethepope@gmail.com",
+      href: "mailto:opethepope@gmail.com"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "@opemipo",
-      href: "https://github.com/opemipo"
+      value: "@bloomberg-sudo-dev",
+      href: "https://github.com/bloomberg-sudo-dev"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "/in/opemipo",
-      href: "https://linkedin.com/in/opemipo"
+      value: "/in/opemipo_404",
+      href: "https://linkedin.com/in/opemipo_404"
     }
   ]
 
